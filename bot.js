@@ -58,7 +58,7 @@ client.on('message', message => { // هاذا للبرودكسات
 	}
 });
 
-var prefix = "prefix";
+var prefix = "-";
  
 client.on("message", message => {
  
@@ -109,8 +109,8 @@ client.on('message',async message => {
 }
 });
  
-const adminprefix = "prefix";
-const devs = ['owner id'];
+const adminprefix = "-";
+const devs = ['558220897547452418'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -145,7 +145,7 @@ client.on('message', message => {
  message.author.sendMessage(`
  **
 مبرمج البوت  | Developers
-[ <@512625982751113216> ]
+[ @جاك حسابه القديم طار#0830  ]
 [❖═════ General Commands ═══════❖]
 💎 -help 『 عرض قائمه المساعده 』   
 💎 -ebc  للنشر بايمبد
